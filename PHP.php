@@ -33,3 +33,10 @@
         echo "Goodbye!\n";
     }
 ?>
+<!--//カウンタ変数-->
+<?php
+    $greeting = "Hello world";
+    for ($i = 0; $i < 5; $i++) {
+        echo $greeting . "\n";
+    }
+?>
